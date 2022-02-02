@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+nav {
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    color: whitesmoke;
+    margin-left: 500px;
+    font-size: 35px;
+}
+
+header {
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: black;
+    font-size: 35px;
+}
+
+.flex {
+    display: flex;
+}
+
+aside {
+    height: 500px;
+    display: flex;
+    flex: 2;
+    margin-left: 500px;
+}
+
+main {
+    display: flex;
+    flex: 4;
+    margin-right: 500px;
+    flex-direction: column;
+}
+
+.profile {
+    margin-right: 38px;
+    border: 4px solid black;
+    width: 100%;
+    line-height: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img {
+    height: 150px;
+}
+
+.profile a {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.profile h2 {
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+.likes {
+    border: 4px solid black;
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.top {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top h2 {
+    font-size: 30px;
+}
+
+.top div {
+    display: flex;
+    align-items: center;
+}
+
+.top div h3 {
+    font-size: 20px;
+}
+
+.top button {
+    font-size: 20px;
+    height: 40px;
+    width: 80px;
+    background: yellow;
+    margin-left: 10px;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+}
+
+.bottom {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom h3 {
+    font-size: 25px;
+}
+
+button:active {
+    position: relative;
+    top: 3px;
+    left: 3px;
+    box-shadow: none;
+}
+
+
+
+
